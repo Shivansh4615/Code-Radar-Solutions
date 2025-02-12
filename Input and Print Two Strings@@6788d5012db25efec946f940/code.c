@@ -2,11 +2,11 @@
 
 int main() {
     char str1[100], str2[100];
-    printf("");
+    printf("Enter first string: ");
     scanf("%s", str1);
-    printf("");
+    printf("Enter second string: ");
     scanf("%s", str2);
-    printf("First String: %s\n", str1);
-    printf("Second String: %s\n", str2);
+    printf("You entered: %s and %s\n", str1, str2);
     return 0;
 }
+
