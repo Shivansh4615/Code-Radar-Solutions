@@ -5,9 +5,9 @@ int main() {
     printf("");
     scanf("%d %d", &num1, &num2);
     if (num1 > num2) {
-        printf("First number is greater than the second.\n");
+        printf("True\n");
     } else {
-        printf("First number is not greater than the second.\n");
+        printf("False\n");
     }
     return 0;
 }
