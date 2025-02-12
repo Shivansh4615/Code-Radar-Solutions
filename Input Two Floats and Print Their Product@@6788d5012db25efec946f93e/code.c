@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    double num1, num2;
-    
-    scanf("%lf %lf", &num1, &num2);
-    
-    printf("%.2lf\n", num1 * num2);
-    
+    float num1, num2, product;
+    printf("");
+    scanf("%f %f", &num1, &num2);
+    product = num1 * num2;
+    printf("Product = %.2f\n", product);
     return 0;
 }
+
