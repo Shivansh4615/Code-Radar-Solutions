@@ -28,7 +28,8 @@ int main() {
         }
     }
 
-    printf("%d %s %.2f\n", students[topIndex].roll, students[topIndex].name, students[topIndex].marks);
+    printf("Top Scorer: Roll Number: %d, Name: %s, Marks: %.2f\n", students[topIndex].roll, students[topIndex].name, students[topIndex].marks);
+
 
     free(students);
 
