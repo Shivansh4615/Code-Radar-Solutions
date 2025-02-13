@@ -20,7 +20,8 @@ int main() {
     }
     
     average = total / n;
-    printf("%.2f\n", average);
+    printf("Average Marks: %.2f\n", average);
+
     
     return 0;
 }
