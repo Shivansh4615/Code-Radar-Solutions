@@ -16,17 +16,17 @@ void bubbleSort(int arr[], int n) {
 
 int main() {
     int n;
-    printf("Enter the number of elements: ");
+    printf("");
     scanf("%d", &n);
     int arr[n];
-    printf("Enter the elements: ");
+    printf("");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
     bubbleSort(arr, n);
 
-    printf("Sorted array is: ");
+    printf("");
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
