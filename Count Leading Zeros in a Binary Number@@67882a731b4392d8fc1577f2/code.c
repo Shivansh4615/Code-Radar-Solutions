@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 
-int (int n) {
+int c(int n) {
     if (n == 0)
         return 32;
 
@@ -17,6 +17,6 @@ int (int n) {
 int main() {
     int num;
     scanf("%d", &num);
-    printf("%d\n",(num));
+    printf("%d\n", c(num));
     return 0;
 }
