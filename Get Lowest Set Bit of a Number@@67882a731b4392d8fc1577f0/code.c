@@ -1,7 +1,7 @@
 // Your code here...
 #include <stdio.h>
 
-int findLowestSetBitPosition(int n) {
+int f(int n) {
     if (n == 0)
         return -1;
 
@@ -16,6 +16,6 @@ int findLowestSetBitPosition(int n) {
 int main() {
     int num;
     scanf("%d", &num);
-    printf("%d\n", findLowestSetBitPosition(num));
+    printf("%d\n", f(num));
     return 0;
 }
